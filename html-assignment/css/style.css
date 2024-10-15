@@ -1,0 +1,47 @@
+/* this is a comment */
+header{
+    background-color: rgb(16, 8, 55);
+    padding: 1rem 2rem;
+    /* top and bottom, left and right */
+    /* 1rem = 16px */
+    margin: 1rem;
+}
+.site-title {
+    color: rgb(186, 234, 12);
+}
+    body {
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif
+    
+    }
+
+    /* add shadow */
+    #my-image {
+        box-shadow: 0px 0px 2px 1px black;
+    }
+    ul {
+        list-style-type: square;
+    }
+
+ /* add a background to the odd list items */
+    ul li:nth-child(odd) {
+        background-color: #f50db7;
+    }
+
+ /* Remove the underline from the links */
+    a {
+        text-decoration: none;
+        background-color: #f50db7;
+        border: 1px solid #0c0c0c;
+    }
+
+    a:hover { 
+        background-color: #e0f408;
+    }
+    
+     /* footer add the same background colour */
+    footer {
+        background-color: rgb(16, 8, 55);
+        color: rgb(241, 238, 238);
+        font-size: 14px;
+    }
