@@ -1,0 +1,88 @@
+html{
+    font-size: 20px;
+}
+body{
+    background-color: azure;
+    font-family: "Playfair Display", serif;
+    color: rgb(89, 90, 60);
+    line-height: 1.5;
+}
+
+.container{
+    /* max-width: 90%; */
+    max-width: 90vw;
+    /* vh */
+    margin: 0 auto;
+}
+
+header{
+    background-color: blue;
+    color: rgb(247, 243, 243);
+    padding: 10rem 0;
+    text-align: center;
+    background-image: url("../imges/bread.jpg");
+    background-repeat: no-repeat;
+    /* background-position: 20px 40px; */
+    background-size: cover;
+    background-position: center;
+    font-size: 10px;
+}
+
+h1{
+    font-size: 2rem;
+    /* 1rem = 16px */
+}
+
+nav ul{
+    list-style: none;
+    padding: 0.7rem 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+nav ul li a{
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+}
+
+/* #breakfact{
+    max-width: 90%;
+} */
+section{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+h2{
+    font-size: 1.8rem;
+    margin: 10px;
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+aside{
+    background-color: rgb(148, 126, 105);
+    padding: 0.8rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    color: rgb(246, 235, 231);
+}
+footer{
+    text-align: center;
+    background-color: rgb(51, 22, 22);
+    color: antiquewhite;
+    padding: 0.8rem 0;
+    margin-top: 1rem;
+    border-radius: 10;
+}

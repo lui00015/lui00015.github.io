@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Set Width and Border */
+.container {
+    width: 500px;
+    border: 6px solid #111;
+    /* Center Container */
+    margin: 0 auto;
+}
+.container::after {
+    content: "";
+    display: table;
+    clear: both;  /* 清除浮動 */
+}
+
+/* .container::before {
+    content: "I am using before class";
+    border: 5px saddlebrown;
+} */
+
+/* Add some space between the border; */
+figure {
+    margin: 10px;
+}
+
+/* Give the caption a distinct style. */
+figcaption {
+    font-family: arial, helvetica, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+    background:#111;
+    color: #fff;
+}
+
+/* Responsive Image
+   The image will scale with the size of its container */
+figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.box1 {
+    width: 25%;
+    height: 100px;
+}
+.purple {
+    background: purple;
+}
+.blue {
+    background: blue;
+}
+.green {
+    background: green;
+}
+.orange {
+    background: orange;
+}
