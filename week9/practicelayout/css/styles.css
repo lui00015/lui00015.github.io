@@ -1,0 +1,132 @@
+/* Custom styles */
+
+/* Global styles */
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.5;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: bold;
+    margin: 1em 0 0.5em;
+}
+
+h2{
+    font-size: 3.375em;
+}
+
+h3{
+    font-size: 2.25em;
+}
+
+h4{
+    font-size: 1.5em;
+}
+
+img{
+    width: 100%
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+
+}
+
+/* Header styles */
+
+.mobile-logo{
+    max-width: 150px;
+}
+.desktop-logo{
+    display: none;
+}
+
+.banner{
+    background: gray url('../images/smog-mobile.jpg') no-repeat center bottom;
+    /* background: color, image, repeat, position */
+    background-size: cover;
+}
+
+.banner h1{
+    text-align: center;
+    padding-top: 220px;
+    margin: 0;
+}
+
+.btnLink{
+    text-decoration: none;
+    display:inline-block;
+    padding: 1.5em;
+    border: 1px solid #00add8;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    color: inherit;
+}
+
+.btnLink:hover,
+.btnLink:focus{
+    background-color: #035265;
+    color: aliceblue
+}
+
+/* footer styles */
+.site-footer{
+    border-top: 2px solid #00add8;
+    padding: 0.8rem 0;
+    margin-top: 1.2rem;
+}
+    
+.copy{
+    text-align: right;
+}
+
+/* Desktop Styles */
+
+@media screen and (min-width: 600px) {
+    html{
+        font-size: 16px;
+    }
+    .mobile-logo{
+        display: name;
+    }
+    .desktop-logo{
+        display: inline-block;
+        max-width: 300px;
+    }
+    .banner{
+        background-image: url('../images/smog-desktop.jpg');
+    }
+
+    .banner h1{
+        color: aliceblue;
+    }
+
+    /* app section */
+    .app img{
+        width: 40%;
+        float: left;
+        margin-right: 1em;
+    }
+    .app .btnLink{
+        float: right;
+    }
+}
