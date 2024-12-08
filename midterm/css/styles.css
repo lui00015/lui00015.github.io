@@ -1,5 +1,4 @@
 
-/* styles.css */
 .container{
     max-width: 80vw;
     margin: 0 auto;
@@ -46,8 +45,6 @@ nav ul li a {
 
 main {
     padding: 20px;
-    /* max-width: 800px; */
-    /* margin: 0 auto; */
     background-color: #faf6f6;
     border: 1px solid #DADADA;
     border-radius: 5px;
@@ -59,11 +56,6 @@ h2 {
 }
 
 .main-image {
-    /* width: 100%;
-    height: auto;
-    max-width: 600px;
-    display: block;
-    margin: 10px auto; */
     margin: 0 10px;
     float: left;
     max-width: 200px;
